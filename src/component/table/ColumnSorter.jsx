@@ -5,7 +5,7 @@ import {Button} from "reactstrap";
 import {MdKeyboardArrowDown, MdKeyboardArrowUp, MdUnfoldMore} from "react-icons/lib/md/index";
 
 
-class ColSorter extends Component {
+class ColumnSorter extends Component {
   constructor(props) {
     super(props);
     this.changeDir = this.changeDir.bind(this);
@@ -68,10 +68,10 @@ class ColSorter extends Component {
   }
 }
 
-ColSorter.propTypes = {
+ColumnSorter.propTypes = {
   colId: PropTypes.string.isRequired,
   onChange: PropTypes.func.isRequired,
   dir: PropTypes.string.isRequired
 };
 
-export default ColSorter;
+export default ColumnSorter;

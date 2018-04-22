@@ -2,8 +2,8 @@ import React, {Component} from "react";
 import PropTypes from 'prop-types';
 
 import {Col, Container, Row} from "reactstrap";
-import ColFilter from "./ColFilter";
-import ColSorter from "./ColSorter";
+import ColFilter from "./ColumnFilter";
+import ColSorter from "./ColumnSorter";
 
 
 class TableHead extends Component {

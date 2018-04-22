@@ -15,7 +15,7 @@ import {
   Row
 } from 'reactstrap';
 
-class DataInfo extends Component {
+class DataInfoPopup extends Component {
   render() {
     const data = this.props.data;
     return (
@@ -79,10 +79,10 @@ class DataInfo extends Component {
   }
 }
 
-DataInfo.propTypes = {
+DataInfoPopup.propTypes = {
   onAction: PropTypes.func.isRequired,
   modal: PropTypes.bool.isRequired,
   data: PropTypes.object.isRequired
 };
 
-export default DataInfo;
+export default DataInfoPopup;

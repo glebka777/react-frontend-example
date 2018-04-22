@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import DataInfo from "./DataInfo";
+import DataInfoPopup from "./DataInfoPopup";
 
 
 class TableBody extends Component {
@@ -43,7 +43,7 @@ class TableBody extends Component {
             <td>{person['phone']}</td>
           </tr>
         ))}
-      <DataInfo data={this.state.data} onAction={this.closeModal} modal={this.state.modalIsOpen}/>
+      <DataInfoPopup data={this.state.data} onAction={this.closeModal} modal={this.state.modalIsOpen}/>
       </tbody>
     );
   }
