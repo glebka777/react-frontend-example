@@ -1,5 +1,5 @@
 ## Just an example ReactJs project ##
-***
+
 This application is just a page with table of data downloaded from http://www.filltext.com.
 Data can be sorted and filtered.
 ***
