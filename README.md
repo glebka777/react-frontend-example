@@ -11,4 +11,4 @@ Data can be sorted and filtered.
 ***
 ### Usage:
 * npm install
-* npm run start
+* npm start
